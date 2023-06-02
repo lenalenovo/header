@@ -1,0 +1,33 @@
+.tela-inteira {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: white;
+    color: #E6007E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 10%; }
+
+#campoDeBusca{
+    border-radius: 15px;
+    width: 500px;
+    background-color: #E6007E;
+    border: none;
+    height: 30px;
+}
+
+.logo{
+    width: 50px;
+    height: 80%;
+}
+
+.logoframe{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
